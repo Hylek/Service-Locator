@@ -1,0 +1,13 @@
+{
+	"name": "com.danielcumbor.servicelocator",
+	"version": "1.0.0",
+	"displayName": "Service Locator",
+	"description": "Simple package that contains an implementation of the service locator pattern to have all service classes under 1 roof.",
+	"unity": "2022.3",
+	"unityRelease": "15f1",
+	"author": {
+		"name": "Daniel Cumbor",
+		"email": "dan-dev@proton.me",
+		"url": "https://www.danielcumbor.uk"
+	}
+}
