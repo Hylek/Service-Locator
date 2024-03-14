@@ -7,11 +7,11 @@ namespace DC.ServiceLocator
     /// <summary>
     /// Implements the Locator pattern so all service classes can be placed under one roof.
     /// </summary>
-    public static class Locator
+    public abstract class BaseLocator
     {
         private static readonly Dictionary<Type, object> Services;
         
-        static Locator() => Services = new Dictionary<Type, object>();
+        static BaseLocator() => Services = new Dictionary<Type, object>();
 
         /// <summary>
         /// Add a new service to the locator.
